@@ -10,6 +10,7 @@ This is a simple Python console application designed to help users analyze DNA a
 - Validate DNA or RNA sequences
 - Count nucleotide frequency
 - Transcribe DNA into RNA
+- Calculate Hamming Distance between two sequences of equal length.
 
 ## 📁 Supported File Formats
 
@@ -46,7 +47,8 @@ Options:
 1. Validate sequence
 2. Count nucleotide frequency
 3. Transcribe DNA to RNA
-4. Exit
+4. Calculate Hamming Distance between two sequences of equal length.
+5. Exit
 ```
 
 ## 📌 Notes
@@ -54,6 +56,7 @@ Options:
 * DNA is considered valid if it only contains A, T, C, G.
 * RNA is considered valid if it only contains A, U, C, G.
 * For transcription, T is replaced by U to simulate the process of forming RNA from a DNA strand.
+* The Hamming Distance is the number of positions at which two sequences of the same length differ. It is used to measure the similarity between two sequences.
 
 ## 📧 Author
 
