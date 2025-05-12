@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code workspace settings
+.vscode/
+
+
+# Environment files
+
+.venv/
+venv/
+
+*.env
+
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Sequence data or sample files (optional, if they’re large or sensitive)
+data/*.fasta
+data/*.gb
+*.gbk
+*.fna
+*.fa
+*.txt
+
